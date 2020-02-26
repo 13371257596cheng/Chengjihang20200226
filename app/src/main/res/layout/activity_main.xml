@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.MainActivity">
+
+    <TextView
+        android:background="#03A9F4"
+        android:gravity="center"
+        android:textSize="40dp"
+        android:text="疫情最新消息"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <!--<com.stx.xhb.xbanner.XBanner-->
+        <!--android:id="@+id/xb"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="200dp">-->
+    <!--</com.stx.xhb.xbanner.XBanner>-->
+    <ImageView
+        android:scaleType="centerCrop"
+        android:src="@mipmap/lbt"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@mipmap/one"
+            android:layout_gravity="center"
+            android:layout_width="150dp"
+            android:layout_height="150dp" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginTop="40dp"
+                android:text="如何辨别儿童是否感染新型冠状病毒"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginTop="5dp"
+                android:textSize="10dp"
+                android:text="如何辨别儿童出现的发热症状是普通感冒、还是流感或新型冠状病毒？北京儿童医院急诊科主任王荃说，普通感冒、流感、新型冠状病毒三者的致病源、发病时间、症状和严重程度都不一样。新型冠状病毒感染是人群普遍易感，尤其是老…"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@mipmap/two"
+            android:layout_gravity="center"
+            android:layout_width="150dp"
+            android:layout_height="150dp" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginTop="40dp"
+                android:text="新型冠状病毒：新型冠状病毒能在无生命的物体和表面存活多久呢？"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginTop="5dp"
+                android:textSize="10dp"
+                android:text="近日，一项最新的研究表明，SARS-CoV-2不在与新命名的 COVID-19进行混淆，这种新型病毒引起的疾病，可以在表面存活并在室温下保持传染性长达9天。 但研究人员表示：目前还不清楚一个人是…"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    //three
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@mipmap/three"
+            android:layout_gravity="center"
+            android:layout_width="150dp"
+            android:layout_height="150dp" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginTop="40dp"
+                android:text="九问新型冠状病毒"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginTop="5dp"
+                android:textSize="10dp"
+                android:text="他告诉记者，截至目前，人们对新型冠状病毒的认识还很不够，尽管科学家在一些机理问题上取得一些进展，但还有很多临床表现尚未找到原因，如潜伏期患者具有感染性、无症状患者也有感染性、某些患者特别是重症患者持续排…"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    //four
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@mipmap/four"
+            android:layout_gravity="center"
+            android:layout_width="150dp"
+            android:layout_height="150dp" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginTop="40dp"
+                android:text="前幼防“疫”战“疫”之认识新型冠状病毒"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginTop="5dp"
+                android:textSize="10dp"
+                android:text="这就是我们全国人民齐心一起战“疫”的对象——新型冠状病毒，也许小朋友对于专业的词汇不是很理解，没关系下面的绘本故事会跟小朋友来说一说这个“坏家伙”。 亲爱的小朋友：我们不要过于担心…"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+    //five
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@mipmap/five"
+            android:layout_gravity="center"
+            android:layout_width="150dp"
+            android:layout_height="150dp" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginTop="40dp"
+                android:text="儿童如何防控新型冠状病毒"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginTop="5dp"
+                android:textSize="10dp"
+                android:text="简介：本微课主要讲授了儿童感染新型冠状病毒的症状、家长如何帮助儿童防护的相关内容。 /今日微课目录/ 防疫微课-返程时如何预防 儿童如何防控新型冠状病毒 孕产妇如何防控新型冠状病毒 …"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
